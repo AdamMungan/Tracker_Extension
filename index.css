@@ -1,0 +1,101 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px 0;
+    margin: 0;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    background: linear-gradient(#e66465, #9198e5);
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+    min-width: 400px;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+h1{
+    color:goldenrod
+}
+
+span {
+    border-bottom: 2px solid black;
+    padding: 4px;
+}
+
+button {
+    justify-content: flex-start;
+    margin-top: 0.5rem;
+    background: linear-gradient(to bottom, #333, #eee 15% );
+    color: #333;
+    width: 90   px;
+    min-width: 75px;
+    border-radius: 0.3rem;
+    border: 1px solid #333;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 8px;
+}
+
+#message-el{
+    font-style: italic;
+}
+
+/*div{
+    margin: auto;
+    margin-top: 5%;
+    border: 1px solid greenyellow;
+    background-color: wheat;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}*/
+input{
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 0.3rem;
+    color:black;
+    width:100%;
+    border: 1px solid #333;
+    padding-right: 10px;
+}
+
+ul{
+    margin-top: 20px;
+    padding-left: 0.6rem;
+    color:white;
+    list-style: circle black; 
+
+}
+li {
+margin-top: 5px;
+padding-inline-start: 0;
+font-size: 1rem;
+
+
+}
+.deletebut{
+    margin-top: 0.5rem;
+ background: transparent;
+    color: rgba(87, 84, 84, 0.671);
+    width: fit-content;
+    min-width: fit-content;
+    min-height: fit-content;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 8px;
+}
+
+a   {
+    color: #333;
+    text-decoration: none;
+    list-style-type: none;
+}
